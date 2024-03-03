@@ -110,7 +110,7 @@ jobs:
     - name: Commit minifest files
       run: |
         cd emp-gitops
-        git config --global user.email "github-actions@github.com"
-        git config --global user.name "github-actions"
+        git config --global user.email "vieuop@naver.com"
+        git config --global user.name "zmonie"
         git commit -am "Update image tag"
         git push -u origin frontend-web
